@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+}
+
+li {
+  border-radius: 10px;
+  border: .4px solid rgb(172, 171, 171);
+  background-color: white;
+  margin-bottom: 1%;
+  width: 100%; 
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 265px;
+}
+
+.container > img {
+  width: 100px;
+  position: absolute;
+  top: 7px;
+  right: 20px; 
+  
+}
+
+#tarjeta {
+  width: calc(100% - 150px); 
+  border: .1px solid rgb(165, 164, 164);
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#infoExtra {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
